@@ -57,7 +57,7 @@ If the text in the html changes, you are doing it right!
 Remember, es2015 is already supported in modern browsers, so you won't see what changed, but it is necessary to add it.
 
 
-### Step 7-1. 
+### Step 7-1. Be able to load css
 
 - 1. Add css loader 
 ```npm install --save-dev style-loader css-loader```
@@ -66,7 +66,7 @@ https://github.com/Saayaman/1_intro_to_webpack/commit/c8f538670aa6854347e86b2526
 - 3. Try adding something ```css``` to see if sass works now!
 - 4. Remember to always build! ```npm run build```
 
-### Step 7-2. 
+### Step 7-2. Be able to load sass
 
 - 1. Add sass loader 
 ```npm install sass-loader node-sass --save-dev```
@@ -75,7 +75,7 @@ https://github.com/Saayaman/1_intro_to_webpack/commit/c8f538670aa6854347e86b2526
 - 4. Remember to always build! ```npm run build```
 
 
-### Step 7-3. 
+### Step 7-3. Be able to load image files
 
 - 1. Add sass loader 
 ```npm install --save-dev file-loader```
@@ -83,7 +83,37 @@ https://github.com/Saayaman/1_intro_to_webpack/commit/c8f538670aa6854347e86b2526
 - 3. Try adding something ```images``` to see if sass works now!
 - 4. Remember to always build! ```npm run build```
 
-### Step 8.
+### Step 8. Setting up HtmlWebpackPlugin
 
-- 
+HtmlWebpack plugin lets you update the index.html from the webpack configuration!
+Basically you are generating index.html by controlling webpack.
+
+this is for keeping index.html always up-to-date.
+
+- 1. ```npm install --save-dev html-webpack-plugin```
+- 2. Add things in webpack.config.js
+https://github.com/Saayaman/1_intro_to_webpack/commit/cf3ff5beea61f82b226791f96b4c839fc2b1145d#diff-11e9f7f953edc64ba14b0cc350ae7b9d
+- 3. ```npm run build```
+
+tada! index.js will automatically be changed to the title you set after you build!!
+
+
+### Step 9. Add CleanWebpackPlugin and template
+
+- CleanWebpackPlugin will enable you to make your /dist folders clean
+- will erase files not used etc...
+
+- 1. ```npm install --save-dev clean-webpack-plugin```
+- 2. Try chaging the output file name in wepack, and adding the plugin https://github.com/Saayaman/1_intro_to_webpack/commit/bf958911399e6f97654e6f331cbe717da0fecda0#diff-11e9f7f953edc64ba14b0cc350ae7b9d
+- 3. ```npm run build```
+
+tada! the bundle is switched to the new name!
+
+- 4. add code in webpack.config.js so we can use templates!
+https://github.com/Saayaman/1_intro_to_webpack/commit/bf958911399e6f97654e6f331cbe717da0fecda0#diff-11e9f7f953edc64ba14b0cc350ae7b9d
+
+- 5. Make a new index.html file inside public folder for using as a template!
+- 6. ```npm run build```
+
+Tada! the dist/index.html is reading from public/index.html
 
