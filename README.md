@@ -57,4 +57,33 @@ If the text in the html changes, you are doing it right!
 Remember, es2015 is already supported in modern browsers, so you won't see what changed, but it is necessary to add it.
 
 
+### Step 7-1. 
+
+- 1. Add css loader 
+```npm install --save-dev style-loader css-loader```
+- 2. Configure webpack.config.js
+https://github.com/Saayaman/1_intro_to_webpack/commit/c8f538670aa6854347e86b2526fdb9914a57da9e#diff-11e9f7f953edc64ba14b0cc350ae7b9d
+- 3. Try adding something ```css``` to see if sass works now!
+- 4. Remember to always build! ```npm run build```
+
+### Step 7-2. 
+
+- 1. Add sass loader 
+```npm install sass-loader node-sass --save-dev```
+- 2. Configure webpack.config.js
+- 3. Try adding something ```sass``` to see if sass works now!
+- 4. Remember to always build! ```npm run build```
+
+
+### Step 7-3. 
+
+- 1. Add sass loader 
+```npm install --save-dev file-loader```
+- 2. Configure webpack.config.js 
+- 3. Try adding something ```images``` to see if sass works now!
+- 4. Remember to always build! ```npm run build```
+
+### Step 8.
+
+- 
 
