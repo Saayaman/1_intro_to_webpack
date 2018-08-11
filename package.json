@@ -1,0 +1,19 @@
+{
+  "name": "1_intro_to_webpack",
+  "version": "1.0.0",
+  "description": "A Webpack Intro Learning Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saayaman/1_intro_to_webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saayaman/1_intro_to_webpack/issues"
+  },
+  "homepage": "https://github.com/Saayaman/1_intro_to_webpack#readme"
+}
