@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import './style.css';
 
 function component(name) {
   let element = document.createElement('div');
@@ -7,6 +8,7 @@ function component(name) {
 
   // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = _.join([text, 'World'], ' ');
+  element.classList.add('hello');
 
   return element;
 }
