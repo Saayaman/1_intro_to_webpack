@@ -18,7 +18,7 @@ npm install webpack webpack-cli --save-dev
 
 ## Step 3. Add index.html and index.js as entry files
 
-Copy code
+Copy code shown in the commit No.3
 
 ## Step 4. Make your first bundle
 
