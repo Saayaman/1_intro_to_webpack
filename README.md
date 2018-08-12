@@ -42,6 +42,8 @@ https://github.com/Saayaman/1_intro_to_webpack/commit/a9746441fc301dcf8191f053fd
 - 5.2 Add Script(command) for bundling
 https://github.com/Saayaman/1_intro_to_webpack/commit/a9746441fc301dcf8191f053fd1e5612b2d36072#diff-b9cfc7f2cdf78a7f4b91a753d10865a2R8
 
+Now that you add this script, you can use the "build" command instead of ```npx webpack``` to build your project. Other projects use the same command for build, so its just better to keep consistency on build commands.
+
 - 5.3 Try Chaging text in the index.js like ```Hello, World``` to see if it bundles correctly later
 - 5.4 ```npm run build```
 
