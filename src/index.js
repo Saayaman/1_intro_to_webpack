@@ -5,7 +5,6 @@ import Icon from '../public/icon.png';
 
 function component(name) {
   let element = document.createElement('div');
-
   const text = `Hello, ${name}`;
 
   // Lodash, currently included via a script, is required for this line to work
